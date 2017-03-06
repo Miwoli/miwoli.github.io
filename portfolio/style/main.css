@@ -45,6 +45,8 @@ body {
         right: 0;
         margin: 20px;
         background: black; }
+      .hardware .monitor .display .screen.active {
+        background: blue; }
       .hardware .monitor .display .switch {
         position: absolute;
         right: 20px;
@@ -94,6 +96,21 @@ body {
       margin: auto;
       margin-top: 15%;
       background: gray; }
+    .hardware .desktop .power {
+      height: 10%;
+      width: 10%;
+      border-radius: 50%;
+      padding: 25%;
+      margin: auto;
+      margin-top: 70%;
+      background: blue; }
+    .hardware .desktop .reset {
+      height: 5%;
+      width: 5%;
+      border-radius: 50%;
+      padding: 10%;
+      margin-left: 70%;
+      background: red; }
 
 .desk {
   border-top: 1px solid black; }

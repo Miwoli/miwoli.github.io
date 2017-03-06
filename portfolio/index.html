@@ -10,7 +10,7 @@
     <div class="hardware">
         <div class="monitor">
             <div class="display">
-                <div class="screen">
+                <div class="screen" id="screen">
                 </div>
                 <div class="switch"></div>
             </div>
@@ -25,7 +25,7 @@
             <div class="case">
             <div class="drive">
             </div>
-            <div class="power">
+            <div class="power" onclick="document.getElementById('screen').classList.toggle('active')">
             </div>
             <div class="reset">
             </div>
