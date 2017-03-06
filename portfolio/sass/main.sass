@@ -1,10 +1,13 @@
 @import clear
 
+$monitor_color: lavender
+
 * 
     box-sizing: border-box
 
 body 
     min-width: 850px
+    max-width: 1800px
     height: 100%
     background: #7d7e7d
     background: -moz-linear-gradient(-45deg, #7d7e7d 0%, #0e0e0e 100%)
@@ -12,62 +15,92 @@ body
     background: linear-gradient(135deg, #7d7e7d 0%,#0e0e0e 100%)
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=1 )
 
-.monitor
+.hardware
+    display: flex
     margin-top: 2%
     margin-left: 2%
-    width: 67.5%
     height: 50%
+    position: relative
 
-    .display
-        width: 100%
-        height: 78.75%
-        border: 1px solid black
-        border-radius: 5px
-        padding-top: 56.25%
-        position: relative
-        background-color: LightSlateGrey
+    .monitor
+        padding-top: 1%
+        width: 67.5%
+        height: 100%
 
-        .screen
-            position: absolute
-            top: 0
-            left: 0
-            bottom: 0
-            right: 0
-            margin: 20px
-            background: black
-
-        .switch
-            position: absolute
-            right: 20px
-            bottom: 0
-            background: blue
-            width: 5%
-            height: 10px
-
-    .stand
-        height: 21.25%
-        width: 27.7%
-        display: flex
-        flex-direction: column
-        align-items: center
-        margin: auto
-
-        .stand_1  
-            background-color: LightSlateGrey 
-            height: 88.235%
-            width: 23.3%
-            border: 1px solid black
-            border-top: none
-            border-bottom: none
-            padding-top: 50%
-
-        .stand_2
-            background-color: LightSlateGrey
-            height: 11.765%
+        .display
             width: 100%
+            height: 78.75%
             border: 1px solid black
-            border-bottom: none
-            padding-top: 10%
+            border-radius: 5px
+            padding-top: 56.25%
+            position: relative
+            background-color: $monitor_color
+
+            .screen
+                position: absolute
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+                margin: 20px
+                background: black
+
+            .switch
+                position: absolute
+                right: 20px
+                bottom: 0
+                background: blue
+                width: 5%
+                height: 10px
+
+        .stand
+            height: 21.25%
+            width: 27.7%
+            display: flex
+            flex-direction: column
+            align-items: center
+            margin: auto
+
+            .stand_1  
+                background-color: $monitor_color
+                height: 88.235%
+                width: 23.3%
+                border: 1px solid black
+                border-top: none
+                border-bottom: none
+                padding-top: 50%
+
+            .stand_2
+                background-color: $monitor_color
+                height: 11.765%
+                width: 100%
+                border: 1px solid black
+                border-bottom: none
+                padding-top: 10%
+
+    .desktop
+        padding-left: 5%
+        height: 100%
+        width: 32.5%
+        padding-top: 50.5%
+        position: relative
+        
+        .case
+            bottom: 0
+            position: absolute
+            border: 1px solid black
+            width: 70%
+            height: 78.75%
+            background: $monitor-color
+
+        .drive
+            height: 4.76%
+            width: 66.6%
+            border: 1px solid black
+            margin: auto
+            margin-top: 15%
+            background: gray
 
 .desk
     border-top: 1px solid black
+    
