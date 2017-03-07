@@ -45,8 +45,41 @@ body
                 margin: 20px
                 background: black
 
-            .screen.active
-                background: blue
+                .black_screen
+                    z-index: 1000
+                    display: none
+                    width: 100%
+                    height: 100%
+                    position: absolute
+
+                .black_screen.active
+                    display: block
+                    background: black
+
+                .content
+                    display: none
+                    display: none
+                    width: 100%
+                    height: 100%
+                    position: absolute
+                    background: white
+
+                .content.active
+                    display: block
+
+                    .left-nav
+                        ul
+                            background: green
+                            width: 15%
+                            display: flex
+                            flex-direction: column
+                            
+                            li
+                                background: yellow
+                                padding: 5px 5px 5px 5px
+                                border-bottom: 2px solid rgba(0,0,0,0.2)
+                                text-align: center
+
 
             .switch
                 position: absolute

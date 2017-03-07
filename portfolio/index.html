@@ -11,8 +11,19 @@
         <div class="monitor">
             <div class="display">
                 <div class="screen" id="screen">
+                    <div class="black_screen" id="black_screen"></div>
+                    <div class="content" id="content">
+                        <div class="left-nav">
+                            <ul>
+                                <li>Lorem ipsum</li>
+                                <li>Lorem ipsum</li>
+                                <li>Lorem ipsum</li>
+                                <li>Lorem ipsum</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="switch"></div>
+                <div class="switch" onclick="document.getElementById('black_screen').classList.toggle('active')"></div>
             </div>
             <div class="stand">
                 <div class="stand_1">
@@ -25,7 +36,7 @@
             <div class="case">
             <div class="drive">
             </div>
-            <div class="power" onclick="document.getElementById('screen').classList.toggle('active')">
+            <div class="power" onclick="document.getElementById('content').classList.add('active')">
             </div>
             <div class="reset">
             </div>
