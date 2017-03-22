@@ -64,22 +64,27 @@ body {
         .hardware .monitor .display .screen .content.active {
           display: block; }
           .hardware .monitor .display .screen .content.active .left-nav ul {
-            background: green;
-            width: 15%;
+            height: 100%;
+            width: 20%;
             display: flex;
             flex-direction: column; }
             .hardware .monitor .display .screen .content.active .left-nav ul li {
-              background: yellow;
-              padding: 5px 5px 5px 5px;
-              border-bottom: 2px solid rgba(0, 0, 0, 0.2);
-              text-align: center; }
+              display: flex;
+              flex-direction: column; }
+              .hardware .monitor .display .screen .content.active .left-nav ul li a {
+                background: yellow;
+                border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+                text-align: center;
+                padding: 5px 20px; }
       .hardware .monitor .display .switch {
         position: absolute;
         right: 20px;
         bottom: 0;
-        background: blue;
+        background: aqua;
         width: 5%;
         height: 10px; }
+      .hardware .monitor .display .switch.active {
+        background: darkblue; }
     .hardware .monitor .stand {
       height: 21.25%;
       width: 27.7%;
@@ -129,6 +134,8 @@ body {
       padding: 25%;
       margin: auto;
       margin-top: 70%;
+      background: darkblue; }
+    .hardware .desktop .power.active {
       background: blue; }
     .hardware .desktop .reset {
       height: 5%;
