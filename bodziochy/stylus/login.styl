@@ -1,0 +1,66 @@
+.login
+  z-index 1000
+  position fixed
+  display flex
+  width 100vw
+  height 100vh
+  background rgba(0,0,0,0.75)
+  justify-content center
+  align-items center
+
+.login.active
+  display none
+
+.pop-up
+  width 100vw
+  height 100vh
+  max-width 724px
+  max-height 724px
+  background rgba(76,176,255,0.6)
+  padding 10%
+  box-shadow shadow
+  overflow auto
+
+.login-form
+  display flex
+  flex-direction column
+  justify-content space-around
+  align-items strech
+  height 100%
+  min-height 350px
+
+.input
+  height 3em
+  border none
+  border-radius (10px)
+  text-align center
+  transition all 0.3s ease
+
+.input.incorrect
+  background rgba(255, 100, 100, 1)
+
+input + .wrong
+  display none
+
+input.incorrect + .wrong
+  display block
+  color rgba(255, 100, 100, 1)
+  text-decoration underline
+  font-weight 700
+
+.age
+  display flex
+  align-items center
+  justify-content space-between
+
+.age-text
+  font-size 1.5em
+  color white
+  padding 0px 20px
+  font-weight 100
+
+.submit
+  height 3em
+  border none
+  border-radius (10px)
+  font-weight 900

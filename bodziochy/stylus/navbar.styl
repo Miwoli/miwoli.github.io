@@ -1,0 +1,73 @@
+.icon
+  cursor pointer
+  user-select(none)
+  font-size 42px
+  color white
+
+.top-bar
+  display flex
+  justify-content space-between
+  align-items center
+  background #008FFF
+  padding 5px
+  z-index 100
+  box-shadow shadow
+
+.avatar
+  display none
+  border-radius (50%)
+  user-select(none)
+  height 42px
+  width auto
+
+.avatar.active
+  display block
+
+.user
+  display none
+  font-weight 700
+  color white
+
+.user.active
+  display block
+
+.nav-bar
+  transform translateY(-200%)
+  transition all 0.3s ease
+  box-shadow shadow
+
+.nav-bar.active
+  transform translateY(0%)
+  transition all 0.3s ease
+
+
+.nav-ul
+  display flex
+  flex-direction column
+  align-items center
+  align-items stretch
+  background #0072CC
+
+.nav-li
+  display flex
+  text-align center
+
+.subpage:hover
+  background #008FFF
+  box-shadow shadow
+
+.nav-a
+  flex 1 1 auto
+  padding 10px
+  color white
+  border-top none
+
+.music
+  flex 1 1 auto
+  padding 0 20%
+  padding-top 40px
+  transition all 0.3s ease
+
+@media (max-width: 400px)
+  .music
+    padding 0
