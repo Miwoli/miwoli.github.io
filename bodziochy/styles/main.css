@@ -26,7 +26,7 @@
   height: 100vh;
   max-width: 724px;
   max-height: 724px;
-  background: #7c267f;
+  background: #7f3326;
   opacity: 0.7;
   padding: 10%;
   box-shadow: 2px 2px 3px #333;
@@ -93,16 +93,13 @@ input.incorrect + .wrong {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #f500ff;
+  background: #ff2500;
   padding: 5px;
   z-index: 100;
   box-shadow: 2px 2px 3px #333;
 }
 .avatar {
   display: none;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
   -webkit-user-select: none /* Chrome all / Safari all */;
   -moz-user-select: none /* Firefox all */;
   -ms-user-select: none /* IE 10+ */;
@@ -135,14 +132,14 @@ input.incorrect + .wrong {
   flex-direction: column;
   align-items: center;
   align-items: stretch;
-  background: #c400cc;
+  background: #cc1e00;
 }
 .nav-li {
   display: flex;
   text-align: center;
 }
 .subpage:hover {
-  background: #f84cff;
+  background: #7f1200;
   box-shadow: 2px 2px 3px #333;
 }
 .nav-a {
@@ -164,22 +161,10 @@ input.incorrect + .wrong {
 }
 body {
   min-height: 100vh;
-  background: #7c267f;
+  background: #7f3326;
 }
 .hidden {
   display: none;
-}
-.cake-container {
-  display: flex;
-  justify-content: center;
-}
-.cake {
-  height: 256px;
-  width: auto;
-  -webkit-user-select: none /* Chrome all / Safari all */;
-  -moz-user-select: none /* Firefox all */;
-  -ms-user-select: none /* IE 10+ */;
-  user-select: none;
 }
 .wish-container {
   display: flex;

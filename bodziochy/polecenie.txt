@@ -1,0 +1,24 @@
+Dzieñ dobry,
+oto wytyczne do projektu.
+Projekt witryny internetowej na dowolny temat zwi¹zany z przedmiotami zawodowymi (informatyka), struktura oparta o nowe znaczniki semantyczne HTML5 z wykorzystaniem CSS (arkusz czyszcz¹cy, plik CSS z komentarzami, poznane typy selektorów nie tylko klasy i id, tak¿e pseudoklasy, selektory atrybutów itp.). Witryna powinna byæ responsywna (RWD, 3 punkty prze³amania) z zastosowaniem modu³u CSS flex-box (w po³¹czeniu z systemem siatek).  Uk³ad zawieraj¹cy co najmniej 4 elementy (nag³ówek, stopka, treœæ g³ówna, panel boczny). Co najmniej 5 podstron:
+1)	strona domowa,
+2)	strona z tabel¹,
+3)	strona z formularzem,
+4)	strona z galeri¹,
+5)	dowolna zawartoœæ (mo¿esz pokazaæ na co Ciê staæ ;) ).
+Struktura katalogów:
+1)	katalog g³ówny – strona domowa + podstrony,
+2)	katalog z grafikami,
+3)	katalog ze stylami,
+4)	ew. katalog ze skryptami.
+Podstawowe struktury HTML5
+1)	lista (menu),
+2)	tabela (wiersze i komórki formatowane z wykorzystaniem nth-child() z efektem hover),
+3)	formularz (wszystkie podstawowe pola formularza, przynajmniej czêœæ pól powinna zawieraæ odpowiednie dla nich atrybuty (typ, wartoœæ domyœlna, podpowiedŸ, pattern i inne),
+Galeria powinna zawieraæ co najmniej 6 zdjêæ z efektami widocznymi po najechaniu za zdjêcie bazowe (przekszta³cenia,  ew. animacje).
+W nag³ówku umieœæ logo szko³y, tytu³ witryny, menu. W stopce wpisz Twoje imiê, nazwisko i klasê.
+Strona mo¿e zawieraæ skrypty JS (z komentarzami).
+Mo¿e ktoœ spróbuje zaprojektowaæ witrynê dla kandydatów do naszej szko³y - dodatkowo punkty z zachowania (praca na rzecz szko³y :), informacje dla kandydatów w zak³adce rekrutacja na witrynie szko³y).
+W razie pytañ proszê o kontakt poprzez dziennik elektroniczny.
+¯yczê owocnej pracy :)
+Pozdrawiam,

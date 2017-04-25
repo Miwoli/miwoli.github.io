@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/foundation.min.css">
     <link rel="stylesheet" type="text/css" href="styles/main.css">
-    <link rel="icon" href="images/favicon.ico" sizes="any">
+    <link rel="icon" href="images/szuster.jpg" sizes="any">
     <title>
       Projekt
     </title>
@@ -15,15 +16,15 @@
     <div class="login" id="login">
       <div class="pop-up">
         <form class="login-form" id="login-form" method="post" autocomplete="off">
-          <input class="input" id="name" type="text" name="name" placeholder="login" required />
+          <input class="input" id="name" type="text" name="name" placeholder="login (admin)" required />
           <p class="wrong">
             Wprowadź poprawny login
           </p>
-          <input class="input" id="surname" type="text" name="surname" placeholder="password" required />
+          <input class="input" id="surname" type="password" name="surname" placeholder="password (admin)" required />
           <p class="wrong">
             Wprowadź poprawne hasło
           </p>
-          <span class="age"><input class="check" id="age" type="checkbox" name="date" required /><span class="age-text">Lorem ipsum dolor sit amet</span></span>
+          <span class="age"><input class="check" id="age" type="checkbox" name="date" required /><span class="age-text">Losowy checkbox</span></span>
           <input class="submit" id="submit" type="submit" value="Zaloguj" onclick="login()"/>
         </form>
       </div>
@@ -31,13 +32,13 @@
     <nav>
       <div class="top-bar" id="top-bar">
       <i class="material-icons icon nav-btn" onclick="document.getElementById('nav-bar').classList.toggle('active')">menu</i>
-      <span class="user" id="user">Projekt</span>
-      <img class="avatar" id="avatar" src="images/profile.jpg" />
+      <span class="user" id="user">Nazwa strony</span>
+      <img class="avatar" id="avatar" src="images/logo.png" />
     </div>
       <div class="nav-bar" id="nav-bar">
         <ul class="nav-ul">
           <li class="nav-li subpage">
-            <a href="#" class="nav-a" data-id="wishes">Menu item 1</a>
+            <a href="#" class="nav-a" data-id="home">Home</a>
           </li>
           <li class="nav-li subpage">
             <a href="#" class="nav-a" data-id="gallery">Menu item gallery</a>
@@ -46,15 +47,15 @@
             <a href="#" class="nav-a" data-id="creators">Menu item 3</a>
           </li>
           <li class="nav-li subpage">
-              <a href="#" class="nav-a">Menu-item 4</a>
+            <a href="#" class="nav-a" data-id="lorem">Menu-item 4</a>
           </li>
         </ul>
       </div>
     </nav>
     <div class="home section" id="home">
-      <div class="cake-container">
-      <img class="cake" src="images/cake.svg" />
-    </div>
+      <p>
+      Nie dla szkoły, lecz dla życia
+    </p>
   </div>
   <div class="wishes section hidden" id="wishes">
     <div class="wish-container">
@@ -84,6 +85,9 @@
               <span class="item-name role">Lorem ipsum, dolor, sit amet</span><span class="item-name name">Lorem ipsum</span><img class="prof-pic" src="images/prof.jpg" />
           </div>
           </div>
+      </div>
+      <div class="lorem section hidden" id="lorem">
+
       </div>
   </div>
 
