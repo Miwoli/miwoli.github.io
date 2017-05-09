@@ -26,7 +26,7 @@
   height: 100vh;
   max-width: 724px;
   max-height: 724px;
-  background: #7f3326;
+  background: #7e6326;
   opacity: 0.7;
   padding: 10%;
   box-shadow: 2px 2px 3px #333;
@@ -93,7 +93,7 @@ input.incorrect + .wrong {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #ff2500;
+  background: #ffb500;
   padding: 5px;
   z-index: 100;
   box-shadow: 2px 2px 3px #333;
@@ -132,14 +132,14 @@ input.incorrect + .wrong {
   flex-direction: column;
   align-items: center;
   align-items: stretch;
-  background: #cc1e00;
+  background: #cc8f00;
 }
 .nav-li {
   display: flex;
   text-align: center;
 }
 .subpage:hover {
-  background: #7f1200;
+  background: #7f5a00;
   box-shadow: 2px 2px 3px #333;
 }
 .nav-a {
@@ -161,10 +161,14 @@ input.incorrect + .wrong {
 }
 body {
   min-height: 100vh;
-  background: #7f3326;
+  background: #7e6326;
+  margin-bottom: 50px;
 }
 .hidden {
   display: none;
+}
+.home.section p {
+  text-align: center;
 }
 .wish-container {
   display: flex;
@@ -173,7 +177,7 @@ body {
 .wish-box {
   width: 70%;
   margin-bottom: 100px;
-  background: #7f1200;
+  background: #7f5a00;
   box-shadow: 2px 2px 3px #333;
 }
 .wish {
@@ -215,7 +219,7 @@ body {
   box-shadow: 2px 2px 3px #333;
   text-align: center;
   color: #fff;
-  background: #cc1e00;
+  background: #cc8f00;
 }
 .prev-container {
   display: none;
@@ -246,7 +250,7 @@ body {
   padding: 10px;
   height: 30%;
   margin-bottom: 10px;
-  background: #cc1e00;
+  background: #cc8f00;
   box-shadow: 2px 2px 3px #333;
   display: flex;
   justify-content: space-between;
@@ -281,10 +285,13 @@ body {
   }
 }
 footer {
-  background: #ff2500;
+  background: #ffb500;
   color: #fff;
   box-shadow: 2px -2px 3px #333;
   height: 50px;
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
   display: flex;
   align-items: center;
   justify-content: center;
