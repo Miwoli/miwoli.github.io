@@ -26,7 +26,7 @@
   height: 100vh;
   max-width: 724px;
   max-height: 724px;
-  background: #7e6326;
+  background: #7f716b;
   opacity: 0.7;
   padding: 10%;
   box-shadow: 2px 2px 3px #333;
@@ -93,7 +93,7 @@ input.incorrect + .wrong {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #ffb500;
+  background: #ffac8a;
   padding: 5px;
   z-index: 100;
   box-shadow: 2px 2px 3px #333;
@@ -132,14 +132,14 @@ input.incorrect + .wrong {
   flex-direction: column;
   align-items: center;
   align-items: stretch;
-  background: #cc8f00;
+  background: #cc8a6f;
 }
 .nav-li {
   display: flex;
   text-align: center;
 }
 .subpage:hover {
-  background: #7f5a00;
+  background: #7f5645;
   box-shadow: 2px 2px 3px #333;
 }
 .nav-a {
@@ -161,7 +161,7 @@ input.incorrect + .wrong {
 }
 body {
   min-height: 100vh;
-  background: #7e6326;
+  background: #7f716b;
   margin-bottom: 50px;
 }
 .hidden {
@@ -177,7 +177,7 @@ body {
 .wish-box {
   width: 70%;
   margin-bottom: 100px;
-  background: #7f5a00;
+  background: #7f5645;
   box-shadow: 2px 2px 3px #333;
 }
 .wish {
@@ -219,7 +219,7 @@ body {
   box-shadow: 2px 2px 3px #333;
   text-align: center;
   color: #fff;
-  background: #cc8f00;
+  background: #cc8a6f;
 }
 .prev-container {
   display: none;
@@ -250,7 +250,7 @@ body {
   padding: 10px;
   height: 30%;
   margin-bottom: 10px;
-  background: #cc8f00;
+  background: #cc8a6f;
   box-shadow: 2px 2px 3px #333;
   display: flex;
   justify-content: space-between;
@@ -285,7 +285,7 @@ body {
   }
 }
 footer {
-  background: #ffb500;
+  background: #ffac8a;
   color: #fff;
   box-shadow: 2px -2px 3px #333;
   height: 50px;
