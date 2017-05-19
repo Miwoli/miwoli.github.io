@@ -170,6 +170,17 @@ body {
 .home.section p {
   text-align: center;
 }
+.home-container {
+  margin: 0 5px;
+  background: #7f5645;
+  box-shadow: 2px 2px 3px #333;
+}
+.home-container p,
+.home-container img {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
 .wish-container {
   display: flex;
   justify-content: center;

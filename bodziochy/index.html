@@ -15,27 +15,11 @@
 </head>
 
 <body>
-  <div class="login" id="login">
-    <div class="pop-up">
-      <form class="login-form" id="login-form" method="post" autocomplete="off">
-        <input class="input" id="name" type="text" name="name" placeholder="login (admin)" required />
-        <p class="wrong">
-          Wprowadź poprawny login
-        </p>
-        <input class="input" id="surname" type="password" name="surname" placeholder="password (admin)" required />
-        <p class="wrong">
-          Wprowadź poprawne hasło
-        </p>
-        <span class="age"><input class="check" id="age" type="checkbox" name="date" required /><span class="age-text">Losowy checkbox</span></span>
-        <input class="submit" id="submit" type="submit" value="Zaloguj" onclick="login()" />
-      </form>
-    </div>
-  </div>
   <nav>
     <div class="top-bar" id="top-bar">
       <i class="material-icons icon nav-btn" onclick="document.getElementById('nav-bar').classList.toggle('active')">menu</i>
-      <span class="user" id="user">E13</span>
-      <img class="avatar" id="avatar" src="images/logo.png" />
+      <span class="user active" id="user">E13</span>
+      <img class="avatar active" id="avatar" src="images/logo.png" />
     </div>
     <div class="nav-bar" id="nav-bar">
       <ul class="nav-ul">
@@ -60,15 +44,21 @@
   <div class="home section" id="home">
     <div class="row">
       <div class="medium-2 columns">
-        <img src="images/cisco.png" alt="cisco" />
+          <div class="home-container">
+          <img src="images/cisco.png" alt="cisco" />
+        </div>
       </div>
       <div class="medium-8 columns">
-        <p>
-          Nie dla szkoły, lecz dla życia
-        </p>
+        <div class="home-container">
+          <p>
+            Nie dla szkoły, lecz dla życia
+          </p>
+        </div>
       </div>
       <div class="medium-2 columns">
-        <img src="images/tp-link.png" alt="tp-link" />
+        <div class="home-container">
+          <img src="images/tp-link.png" alt="tp-link" />
+        </div>
       </div>
     </div>
   </div>
@@ -178,7 +168,7 @@
   </div>
   <footer>
     <p>
-      &copy Created by Michał 'Miwoli' Woliński 2017
+      &copy Created by Michał 'Miwoli' Woliński 2017 | 3B
     </p>
   </footer>
   <script src="scripts/gallery.js"></script>
