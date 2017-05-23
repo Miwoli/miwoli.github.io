@@ -18,8 +18,8 @@
   <nav>
     <div class="top-bar" id="top-bar">
       <i class="material-icons icon nav-btn" onclick="document.getElementById('nav-bar').classList.toggle('active')">menu</i>
-      <span class="user active" id="user">E13</span>
-      <img class="avatar active" id="avatar" src="images/logo.png" />
+      <span class="page-title active">E13</span>
+      <img class="page-logo active" src="images/logo.png" />
     </div>
     <div class="nav-bar" id="nav-bar">
       <ul class="nav-ul">
@@ -27,16 +27,16 @@
           <a href="#" class="nav-a" data-id="home">Home</a>
         </li>
         <li class="nav-li subpage">
-            <a href="#" class="nav-a" data-id="wishes">Menu item 1</a>
+            <a href="#" class="nav-a" data-id="qualification">Kwalifikacje</a>
         </li>
         <li class="nav-li subpage">
-          <a href="gallery.html" class="nav-a" data-id="gallery">Menu item gallery</a>
+          <a href="gallery.html" class="nav-a" data-id="gallery">Galeria</a>
         </li>
         <li class="nav-li subpage">
-          <a href="#" class="nav-a" data-id="creators">Menu item 3</a>
+          <a href="#" class="nav-a" data-id="other">Inne</a>
         </li>
         <li class="nav-li subpage">
-          <a href="#" class="nav-a" data-id="lorem">Menu-item 4</a>
+          <a href="#" class="nav-a" data-id="contact">Kontakt</a>
         </li>
       </ul>
     </div>
@@ -85,24 +85,112 @@ Absolwent, który zdał egzamin otrzymuje dyplom potwierdzający kwalifikacje za
       </div>
     </div>
   </div>
-  <div class="wishes section hidden" id="wishes">
-    <div class="wish-container">
-      <div class="wish-box">
-        <p class="wish">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-          in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-        <img class="wish-img" src="images/szuster.jpg" />
+  <div class="qualification section hidden" id="qualification">
+    <div class="third-container">
+      <div class="third-box">
+          <table>
+            <tr>
+              <th>
+                Numer kwalifikacji (kolejności) w zawodzie
+              </th>
+              <th>
+                Symbol kwalifikacji z podstawy programowej
+              </th>
+              <th>
+                Nazwa kwalifikacji
+              </th>
+            </tr>
+            <tr>
+              <td>
+                K1
+              </td>
+              <td>
+                E.12.
+              </td>
+              <td>
+                Montaż i eksploatacja komputerów osobistych oraz urządzeń peryferyjnych
+              </td>
+            </tr>
+            <tr>
+              <td>
+                K2
+              </td>
+              <td>
+                E.13.
+              </td>
+              <td>
+                Projektowanie lokalnych sieci komputerowych i administrowanie sieciami
+              </td>
+            </tr>
+            <tr>
+              <td>
+                K3
+              </td>
+              <td>
+                E.13.
+              </td>
+              <td>
+                Tworzenie aplikacji internetowych i baz danych oraz administrowanie
+                bazami
+              </td>
+            </tr>
+          </table>
       </div>
     </div>
   </div>
-  <div class="creators section hidden" id="creators">
-    <div class="creators-container">
-      <div class="creator">
+  <div class="other section hidden" id="other">
+    <div class="other-container">
+      <div class="strip">
         <span class="item-name role">Lorem ipsum, dolor, sit amet</span><span class="item-name name">Lorem ipsum</span><img class="prof-pic" src="images/szuster.jpg" />
       </div>
+      <div class="strip">
+        <span class="item-name role">Lorem ipsum, dolor, sit amet</span><span class="item-name name">Lorem ipsum</span><img class="prof-pic" src="images/szuster.jpg" />
+      </div>
+      <div class="strip">
+        <span class="item-name role">Lorem ipsum, dolor, sit amet</span><span class="item-name name">Lorem ipsum</span><img class="prof-pic" src="images/szuster.jpg" />
+      </div>
+      </div>
     </div>
   </div>
-  <div class="lorem section hidden" id="lorem">
+  <div class="contact section hidden" id="contact">
+    <div class="form-container">
+      <form method="post" action="#">
+        <h1>Kontakt</h1>
+        <p>
+          Imię:
+        </p>
+        <input type="text" name="name" placeholder="Imię" pattern="[A-Z+a-z+]" required="true"/>
+        <p>
+          Email:
+        </p>
+        <input type="email" name="mail" placeholder="Mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required="true"/>
+        <p>
+          Płeć:
+        </p>
+        <div class="radios">
+          <input type="radio" name="gender" value="male" />Mężczyzna<br />
+          <input type="radio" name="gender" value="female" />Kobieta<br />
+          <input type="radio" name="gender" value="other" />Inne
+        </div>
+        <div class="checkboxes">
+          <input type="checkbox" name="organs" value="kidney" />Wyrażam zgodę na sprzedaż nerki<br />
+          <input type="checkbox" name="organs" vanue="liver"  />Wyrażam zgodę na sprzedaż wątroby<br />
+        </div>
+        <div class="select">
+          <p>
+            Klasa:
+          </p>
+          <select name="class">
+            <option value="first">Pierwsza</option>
+            <option value="second">Druga</option>
+            <option value="third">Trzecia</option>
+          </select>
+        </div>
+        <p>
+          <input class="button" type="submit" name="submit" value="Wyślij!" />
+        </p>
+      </form>
+    </div>
   </div>
   <footer>
     <p>
