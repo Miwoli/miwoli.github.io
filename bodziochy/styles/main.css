@@ -109,11 +109,21 @@ body {
   font-weight: 300;
   color: #d3d3d3;
 }
+@media screen and (max-width: 728px) {
+  .home-container article h2 {
+    font-size: 2em;
+  }
+}
 .home-container article p {
   font-size: 1em;
   font-weight: 300;
   color: #fff;
   margin: 10px 0;
+}
+@media screen and (max-width: 728px) {
+  .home-container article p {
+    font-size: 1.5em;
+  }
 }
 .third-container {
   display: flex;
