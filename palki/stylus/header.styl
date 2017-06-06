@@ -1,0 +1,51 @@
+header
+  background color-4
+
+  .slider
+    display flex
+    flex-direction column
+
+
+  .slider-content
+      display flex
+      justify-content center
+
+      img
+        height 400px
+        width auto
+
+    .slider-control
+      display flex
+      justify-content space-between
+      padding 20px 100px
+
+      i
+        font-size 5em
+        cursor pointer
+        user-select none
+        transition all .3s ease-in-out
+
+        &:hover
+          color gray
+
+  .nav-bar
+    display flex
+    justify-content space-between
+    padding 0 50px
+    background color-1
+
+    .nav-item
+      flex 1
+      text-align center
+      border-left 1px solid black
+      border-right 1px solid black
+
+      a
+        width 100%
+        padding 20px
+        display block
+        text-transform uppercase
+        transition all .3s ease-in-out
+
+        &:hover
+          background color-2

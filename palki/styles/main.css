@@ -8,3 +8,84 @@
   box-sizing: border-box;
   font-family: roboto;
 }
+header {
+  background: #69cc00;
+}
+header .slider {
+  display: flex;
+  flex-direction: column;
+}
+header .slider-content {
+  display: flex;
+  justify-content: center;
+}
+header .slider-content img {
+  height: 400px;
+  width: auto;
+}
+header .slider-control {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+header .slider-control i {
+  font-size: 5em;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.3s ease-in-out;
+}
+header .slider-control i:hover {
+  color: #808080;
+}
+header .nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  background: #427f00;
+}
+header .nav-bar .nav-item {
+  flex: 1;
+  text-align: center;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+header .nav-bar .nav-item a {
+  width: 100%;
+  padding: 20px;
+  display: block;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+header .nav-bar .nav-item a:hover {
+  background: #a8ff4c;
+}
+.main {
+  display: flex;
+  background: #83ff00;
+}
+.main .main-left {
+  padding: 50px;
+  width: 50%;
+}
+.main .main-left form {
+  padding-top: 20px;
+}
+.main .main-right {
+  padding: 50px;
+  width: 50%;
+}
+.main .main-right form p {
+  padding: 10px 0;
+  margin: 10px 0;
+}
+.main .img.active {
+  height: 400px;
+}
+footer {
+  background: #547f26;
+}
+footer .footer-container {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}

@@ -5,9 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="styles/foundation.min.css">
     <link rel="stylesheet" type="text/css" href="styles/main.css">
-    <link rel="icon" href="images/szuster.jpg" sizes="any">
     <title>
       Sklep z siatkami
     </title>
@@ -19,8 +17,8 @@
           <img id="slider-img" class="banner" src=""/>
       </div>
       <div class="slider-control">
-          <i class="material-icons">keyboard_arrow_left</i>
-          <i class="material-icons">keyboard_arrow_right</i>
+          <i id="arr-left" class="material-icons">keyboard_arrow_left</i>
+          <i id="arr-right" class="material-icons">keyboard_arrow_right</i>
       </div>
     </div>
     <nav>
@@ -38,12 +36,56 @@
     </nav>
   </header>
   <div class="main">
-    
+    <div class="main-left">
+      <h1>
+        Wybierz swoją siatkę
+      </h1>
+      <form>
+        <select id="fence-list" class="fence-list">
+          <option value="fence-1">
+            Model fnc-1
+          </option>
+          <option value="fence-2">
+            Model fnc-2
+          </option>
+          <option value="fence-3">
+            Model fnc-3
+          </option>
+        </select>
+      </form>
+    </div>
+    <div class="main-right">
+      <div class="img-container">
+        <img id="img" class="img" src="images/fnc_1.jpg" />
+      </div>
+      <div class="info-container">
+        <form class="info">
+          <p>
+            Cena za metr:
+          </p>
+          <input id="price" type="text" name="price" value="10" disabled />
+          <p>
+            Ilość metrów:
+          </p>
+          <input id="meters" type="text" name="meters" />
+          <p>
+            Cena w sumie:
+          </p>
+          <input id="overall" type="text" name="overall" disabled />
+          <p>
+            <button type="button" id="submit" class="submit">Przelicz</button>
+          </p>
+        </form>
+      </div>
+    </div>
   </div>
   <footer>
     <div class="footer-container">
         <p>Created by Michał 'Miwoli' Woliński</p>
     </div>
   </footer>
+
+  <script src="scripts/calc.js"></script>
+  <script src="scripts/slider.js"></script>
   </body>
 </html>
