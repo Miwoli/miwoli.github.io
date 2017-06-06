@@ -4,7 +4,7 @@ const fnc_1 = {
 }
 
 const fnc_2 = {
-  src: "images/fnc_3.jpg",
+  src: "images/fnc_2.jpg",
   price: 20
 }
 
