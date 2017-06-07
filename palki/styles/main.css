@@ -81,6 +81,28 @@ header .nav-bar .nav-item a:hover {
 .main .img.active {
   height: 400px;
 }
+input {
+  border: none;
+  border-radius: 15px;
+  padding: 5px;
+}
+button {
+  border: none;
+  border-radius: 10px;
+  background: #547f26;
+  color: #fff;
+  padding: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+button:hover {
+  background: #69cc00;
+}
+select {
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+}
 footer {
   background: #547f26;
 }
