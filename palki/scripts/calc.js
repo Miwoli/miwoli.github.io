@@ -13,6 +13,16 @@ const fnc_3 = {
   price: 30
 }
 
+const fnc_4 = {
+  src: "images/fnc_4.jpg",
+  price: 40
+}
+
+const fnc_5 = {
+  src: "images/fnc_5.jpg",
+  price: 50
+}
+
 let fence = document.getElementById('fence-list')
 fence.addEventListener('change', function () {
   if (fence.value == "fence-1") {
@@ -28,6 +38,14 @@ fence.addEventListener('change', function () {
   if (fence.value == "fence-3") {
     document.getElementById('img').src = fnc_3.src
     document.getElementById('price').value = fnc_3.price
+  }
+  if (fence.value == "fence-4") {
+    document.getElementById('img').src = fnc_4.src
+    document.getElementById('price').value = fnc_4.price
+  }
+  if (fence.value == "fence-5") {
+    document.getElementById('img').src = fnc_5.src
+    document.getElementById('price').value = fnc_5.price
   }
 })
 
